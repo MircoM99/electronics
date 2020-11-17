@@ -295,7 +295,7 @@ L Device:R R1
 U 1 1 5F8DD851
 P 9000 4550
 F 0 "R1" H 9070 4596 50  0000 L CNN
-F 1 "250" H 9070 4505 50  0000 L CNN
+F 1 "100" H 9070 4505 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 4550 50  0001 C CNN
 F 3 "~" H 9000 4550 50  0001 C CNN
 	1    9000 4550
@@ -311,17 +311,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 4700 50  0001 C CNN
 F 3 "~" H 7950 4700 50  0001 C CNN
 	1    7950 4700
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR0124
-U 1 1 5F8F0040
-P 8650 4600
-F 0 "#PWR0124" H 8650 4450 50  0001 C CNN
-F 1 "+9V" H 8665 4773 50  0000 C CNN
-F 2 "" H 8650 4600 50  0001 C CNN
-F 3 "" H 8650 4600 50  0001 C CNN
-	1    8650 4600
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0125
@@ -350,7 +339,7 @@ L Device:R R2
 U 1 1 5F8FBDC1
 P 9000 5300
 F 0 "R2" H 9070 5346 50  0000 L CNN
-F 1 "250" H 9070 5255 50  0000 L CNN
+F 1 "100" H 9070 5255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 5300 50  0001 C CNN
 F 3 "~" H 9000 5300 50  0001 C CNN
 	1    9000 5300
@@ -366,17 +355,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 5450 50  0001 C CNN
 F 3 "~" H 7950 5450 50  0001 C CNN
 	1    7950 5450
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR0126
-U 1 1 5F8FBDCD
-P 8650 5350
-F 0 "#PWR0126" H 8650 5200 50  0001 C CNN
-F 1 "+9V" H 8665 5523 50  0000 C CNN
-F 2 "" H 8650 5350 50  0001 C CNN
-F 3 "" H 8650 5350 50  0001 C CNN
-	1    8650 5350
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0127
@@ -405,7 +383,7 @@ L Device:R R3
 U 1 1 5F8FE1D3
 P 9000 6050
 F 0 "R3" H 9070 6096 50  0000 L CNN
-F 1 "250" H 9070 6005 50  0000 L CNN
+F 1 "100" H 9070 6005 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 6050 50  0001 C CNN
 F 3 "~" H 9000 6050 50  0001 C CNN
 	1    9000 6050
@@ -421,17 +399,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 6200 50  0001 C CNN
 F 3 "~" H 7950 6200 50  0001 C CNN
 	1    7950 6200
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+9V #PWR0128
-U 1 1 5F8FE1DF
-P 8650 6100
-F 0 "#PWR0128" H 8650 5950 50  0001 C CNN
-F 1 "+9V" H 8665 6273 50  0000 C CNN
-F 2 "" H 8650 6100 50  0001 C CNN
-F 3 "" H 8650 6100 50  0001 C CNN
-	1    8650 6100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0129
@@ -455,8 +422,8 @@ Wire Wire Line
 	8150 6200 9000 6200
 Wire Wire Line
 	8150 6100 8650 6100
-Text Notes 9450 4600 0    50   ~ 0
-Output of 1-5V with a 250 Ohms Resistor\n\n
+Text Notes 9250 4400 0    50   ~ 0
+Output of 0.4-2V with a 100 Ohms Resistor\n\n
 Text GLabel 2400 1300 2    50   Input ~ 0
 ADC_A1
 Text GLabel 2400 1200 2    50   Input ~ 0
@@ -784,22 +751,11 @@ L Connector:Screw_Terminal_01x02 J5
 U 1 1 5F9D2875
 P 10850 5200
 F 0 "J5" H 10800 5300 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 10950 4750 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 10950 4950 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10850 5200 50  0001 C CNN
 F 3 "~" H 10850 5200 50  0001 C CNN
 	1    10850 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+9V #PWR01
-U 1 1 5F9D30A2
-P 10450 5300
-F 0 "#PWR01" H 10450 5150 50  0001 C CNN
-F 1 "+9V" H 10465 5473 50  0000 C CNN
-F 2 "" H 10450 5300 50  0001 C CNN
-F 3 "" H 10450 5300 50  0001 C CNN
-	1    10450 5300
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -813,8 +769,6 @@ F 3 "" H 10450 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10650 5300 10450 5300
-Wire Wire Line
 	10650 5200 10450 5200
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -827,9 +781,55 @@ F 3 "~" H 10150 5300 50  0001 C CNN
 	1    10150 5300
 	-1   0    0    1   
 $EndComp
+Text Notes 11200 5700 2    50   ~ 0
+12V from power supply or batteries\n\n
 Wire Wire Line
-	10450 5300 10150 5300
-Connection ~ 10450 5300
-Text Notes 10800 5700 2    50   ~ 0
-9V from batteries\n
+	10150 5300 10500 5300
+$Comp
+L power:+12V #PWR?
+U 1 1 5FB4126D
+P 10500 5300
+F 0 "#PWR?" H 10500 5150 50  0001 C CNN
+F 1 "+12V" H 10515 5473 50  0000 C CNN
+F 2 "" H 10500 5300 50  0001 C CNN
+F 3 "" H 10500 5300 50  0001 C CNN
+	1    10500 5300
+	-1   0    0    1   
+$EndComp
+Connection ~ 10500 5300
+Wire Wire Line
+	10500 5300 10650 5300
+$Comp
+L power:+12V #PWR?
+U 1 1 5FB42063
+P 8650 6100
+F 0 "#PWR?" H 8650 5950 50  0001 C CNN
+F 1 "+12V" H 8665 6273 50  0000 C CNN
+F 2 "" H 8650 6100 50  0001 C CNN
+F 3 "" H 8650 6100 50  0001 C CNN
+	1    8650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5FB428B7
+P 8650 5350
+F 0 "#PWR?" H 8650 5200 50  0001 C CNN
+F 1 "+12V" H 8665 5523 50  0000 C CNN
+F 2 "" H 8650 5350 50  0001 C CNN
+F 3 "" H 8650 5350 50  0001 C CNN
+	1    8650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5FB42C6F
+P 8650 4600
+F 0 "#PWR?" H 8650 4450 50  0001 C CNN
+F 1 "+12V" H 8665 4773 50  0000 C CNN
+F 2 "" H 8650 4600 50  0001 C CNN
+F 3 "" H 8650 4600 50  0001 C CNN
+	1    8650 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
