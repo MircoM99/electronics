@@ -28,7 +28,7 @@
   - [Adafruit MAX31856 PCB Layout](https://cdn-learn.adafruit.com/assets/assets/000/035/947/original/sensors_fab.png?1474584073)
   
 ## Adafruit MicroSD Breakout
-- [Adafruit Shop](https://www.adafruit.com/product/3263)
+- [Adafruit Shop](https://www.adafruit.com/product/254)
 - [Adafruit Overview](https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial)
 
   - [Adafruit MicroSD Breakout Schematic](https://cdn-learn.adafruit.com/assets/assets/000/035/635/original/adafruit_products_schem.png?1473451805)
