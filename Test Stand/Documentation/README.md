@@ -42,6 +42,14 @@ Nella cartella `\Datasheet PDF` sono presenti i principali datasheet in formato 
 - [INA 122 Overview](https://www.ti.com/product/INA122)
 - [INA 122 Datasheet](https://www.ti.com/lit/ds/symlink/ina122.pdf)
 
+## IFM PT5423 Pressure Sensor
+- [IFM PT5423 Shop](https://www.ifm.com/it/it/product/PT5423)
+- [IFM PT5423 Datasheet](https://www.ifm.com/restservices/it/it/assets/c3VwcGxpZXJzL2lmbS9kb2N1bWVudHMvcHJvZHVjdC9QVDU0MjMtMDEvZGF0ZW5ibGFldHRlci9QVDU0MjMtMDFfSVQtSVQucGRm)
+
+## Omega M12JSS-M3-U-200-E Thermocouple
+- [Omega M12 Thermocouples Shop](https://it.omega.com/pptst/M12PROBES.html)
+- [Omega M12 Thermocouples Datasheet](https://it.omega.com/temperature/pdf/M12PROBES.pdf)
+
   
 
   
