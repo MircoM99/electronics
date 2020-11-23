@@ -31,4 +31,6 @@ La cartella Software contiene i file di progetto dedicati alla realizzazione del
 
 Il framework principale utilizzato rimane comunque Arduino. 
 
+![Thrust Logo](https://github.com/thrust-team/grafica/blob/master/logo_thrust.png)
+
 
