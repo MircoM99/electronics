@@ -23,7 +23,7 @@ La cartella Hardware contiene tutti i file di progetto dedicati alla realizzazio
 - `Test Stand\Hardware\Test Stand PCB\Test Stand PCB.pro`
 - `Avionic\Hardware\Avionic PCB\Avionic PCB.pro`
 
-Nella directory di progetto sono contenute le librerie Symbols (`Breakout_Test_Bench_PCB.lib`) e Footprint(`Test Bench PCB Breakout.pretty`) utilizzate. 
+Nella directory di progetto sono contenute le librerie Symbols (`Breakout_Test_Stand_PCB.lib`) e Footprint(`Test Stand PCB Breakout.pretty`) utilizzate. 
 
 ## Software
 
