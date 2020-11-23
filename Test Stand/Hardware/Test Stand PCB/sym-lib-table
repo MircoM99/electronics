@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Test-Bench-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/Test Bench PCB-rescue.lib")(options "")(descr ""))
 )

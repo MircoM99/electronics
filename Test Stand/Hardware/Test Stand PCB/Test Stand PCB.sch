@@ -4,28 +4,17 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Test Bench Electronics"
+Title "Test Stand Electronics"
 Date "2020-10-20"
 Rev "1.0"
-Comp "University of Padua"
+Comp "Università degli Studi di Padova"
 Comment1 "Jacopo Irone"
 Comment2 "Thrust Team"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Breakout_Test_Bench_Library:AdafruitHuzzah32Breakout U1
-U 1 1 5F7A20EC
-P 2050 5200
-F 0 "U1" H 2050 5565 50  0000 C CNN
-F 1 "AdafruitHuzzah32Breakout" H 2050 5474 50  0000 C CNN
-F 2 "Test Bench PCB Breakout:Adafruit_Huzzah32" H 1850 5300 50  0001 C CNN
-F 3 "" H 1850 5300 50  0001 C CNN
-	1    2050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Breakout_Test_Bench_Library:Adafruit_ADS1115 ADC1
+L Test_Stand_Symbol_Library:Adafruit_ADS1115 ADC1
 U 1 1 5F89A5C4
 P 2400 1350
 F 0 "ADC1" H 1700 1800 50  0000 L CNN
@@ -36,7 +25,7 @@ F 3 "" H 2400 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_ADS1015 ADC2
+L Test_Stand_Symbol_Library:Adafruit_ADS1015 ADC2
 U 1 1 5F89AD1E
 P 2400 2750
 F 0 "ADC2" H 1700 3200 50  0000 L CNN
@@ -117,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3400 2400 3400
 $Comp
-L Breakout_Test_Bench_Library:INA_122P U7
+L Test_Stand_Symbol_Library:INA_122P U7
 U 1 1 5F8AD66F
 P 5250 4850
 F 0 "U7" H 5250 4950 50  0000 C CNN
@@ -293,136 +282,136 @@ Wire Wire Line
 $Comp
 L Device:R R1
 U 1 1 5F8DD851
-P 9000 4550
-F 0 "R1" H 9070 4596 50  0000 L CNN
-F 1 "100" H 9070 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 4550 50  0001 C CNN
-F 3 "~" H 9000 4550 50  0001 C CNN
-	1    9000 4550
+P 8700 4700
+F 0 "R1" H 8770 4746 50  0000 L CNN
+F 1 "100" H 8770 4655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8630 4700 50  0001 C CNN
+F 3 "~" H 8700 4700 50  0001 C CNN
+	1    8700 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5F8E41FD
-P 7950 4700
-F 0 "J1" H 7868 4375 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 7868 4466 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 4700 50  0001 C CNN
-F 3 "~" H 7950 4700 50  0001 C CNN
-	1    7950 4700
+P 7650 4850
+F 0 "J1" H 7568 4525 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7568 4616 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7650 4850 50  0001 C CNN
+F 3 "~" H 7650 4850 50  0001 C CNN
+	1    7650 4850
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0125
 U 1 1 5F8F2255
-P 9000 4250
-F 0 "#PWR0125" H 9000 4000 50  0001 C CNN
-F 1 "GND" H 9005 4077 50  0000 C CNN
-F 2 "" H 9000 4250 50  0001 C CNN
-F 3 "" H 9000 4250 50  0001 C CNN
-	1    9000 4250
+P 8700 4400
+F 0 "#PWR0125" H 8700 4150 50  0001 C CNN
+F 1 "GND" H 8705 4227 50  0000 C CNN
+F 2 "" H 8700 4400 50  0001 C CNN
+F 3 "" H 8700 4400 50  0001 C CNN
+	1    8700 4400
 	-1   0    0    1   
 $EndComp
-Text GLabel 9450 4700 2    50   Input ~ 0
+Text GLabel 9150 4850 2    50   Input ~ 0
 ADC_A1
 Wire Wire Line
-	9000 4700 9450 4700
-Connection ~ 9000 4700
+	8700 4850 9150 4850
+Connection ~ 8700 4850
 Wire Wire Line
-	9000 4400 9000 4250
+	8700 4550 8700 4400
 Wire Wire Line
-	8150 4700 9000 4700
+	7850 4850 8700 4850
 Wire Wire Line
-	8150 4600 8650 4600
+	7850 4750 8350 4750
 $Comp
 L Device:R R2
 U 1 1 5F8FBDC1
-P 9000 5300
-F 0 "R2" H 9070 5346 50  0000 L CNN
-F 1 "100" H 9070 5255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 5300 50  0001 C CNN
-F 3 "~" H 9000 5300 50  0001 C CNN
-	1    9000 5300
+P 8700 5450
+F 0 "R2" H 8770 5496 50  0000 L CNN
+F 1 "100" H 8770 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8630 5450 50  0001 C CNN
+F 3 "~" H 8700 5450 50  0001 C CNN
+	1    8700 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5F8FBDC7
-P 7950 5450
-F 0 "J2" H 7868 5125 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 7868 5216 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 5450 50  0001 C CNN
-F 3 "~" H 7950 5450 50  0001 C CNN
-	1    7950 5450
+P 7650 5600
+F 0 "J2" H 7568 5275 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7568 5366 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7650 5600 50  0001 C CNN
+F 3 "~" H 7650 5600 50  0001 C CNN
+	1    7650 5600
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0127
 U 1 1 5F8FBDD3
-P 9000 5000
-F 0 "#PWR0127" H 9000 4750 50  0001 C CNN
-F 1 "GND" H 9005 4827 50  0000 C CNN
-F 2 "" H 9000 5000 50  0001 C CNN
-F 3 "" H 9000 5000 50  0001 C CNN
-	1    9000 5000
+P 8700 5150
+F 0 "#PWR0127" H 8700 4900 50  0001 C CNN
+F 1 "GND" H 8705 4977 50  0000 C CNN
+F 2 "" H 8700 5150 50  0001 C CNN
+F 3 "" H 8700 5150 50  0001 C CNN
+	1    8700 5150
 	-1   0    0    1   
 $EndComp
-Text GLabel 9450 5450 2    50   Input ~ 0
+Text GLabel 9150 5600 2    50   Input ~ 0
 ADC_A2
 Wire Wire Line
-	9000 5450 9450 5450
-Connection ~ 9000 5450
+	8700 5600 9150 5600
+Connection ~ 8700 5600
 Wire Wire Line
-	9000 5150 9000 5000
+	8700 5300 8700 5150
 Wire Wire Line
-	8150 5450 9000 5450
+	7850 5600 8700 5600
 Wire Wire Line
-	8150 5350 8650 5350
+	7850 5500 8350 5500
 $Comp
 L Device:R R3
 U 1 1 5F8FE1D3
-P 9000 6050
-F 0 "R3" H 9070 6096 50  0000 L CNN
-F 1 "100" H 9070 6005 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8930 6050 50  0001 C CNN
-F 3 "~" H 9000 6050 50  0001 C CNN
-	1    9000 6050
+P 8700 6200
+F 0 "R3" H 8770 6246 50  0000 L CNN
+F 1 "100" H 8770 6155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8630 6200 50  0001 C CNN
+F 3 "~" H 8700 6200 50  0001 C CNN
+	1    8700 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5F8FE1D9
-P 7950 6200
-F 0 "J3" H 7868 5875 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 7868 5966 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7950 6200 50  0001 C CNN
-F 3 "~" H 7950 6200 50  0001 C CNN
-	1    7950 6200
+P 7650 6350
+F 0 "J3" H 7568 6025 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7568 6116 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 7650 6350 50  0001 C CNN
+F 3 "~" H 7650 6350 50  0001 C CNN
+	1    7650 6350
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0129
 U 1 1 5F8FE1E5
-P 9000 5750
-F 0 "#PWR0129" H 9000 5500 50  0001 C CNN
-F 1 "GND" H 9005 5577 50  0000 C CNN
-F 2 "" H 9000 5750 50  0001 C CNN
-F 3 "" H 9000 5750 50  0001 C CNN
-	1    9000 5750
+P 8700 5900
+F 0 "#PWR0129" H 8700 5650 50  0001 C CNN
+F 1 "GND" H 8705 5727 50  0000 C CNN
+F 2 "" H 8700 5900 50  0001 C CNN
+F 3 "" H 8700 5900 50  0001 C CNN
+	1    8700 5900
 	-1   0    0    1   
 $EndComp
-Text GLabel 9450 6200 2    50   Input ~ 0
+Text GLabel 9150 6350 2    50   Input ~ 0
 ADC_A3
 Wire Wire Line
-	9000 6200 9450 6200
-Connection ~ 9000 6200
+	8700 6350 9150 6350
+Connection ~ 8700 6350
 Wire Wire Line
-	9000 5900 9000 5750
+	8700 6050 8700 5900
 Wire Wire Line
-	8150 6200 9000 6200
+	7850 6350 8700 6350
 Wire Wire Line
-	8150 6100 8650 6100
-Text Notes 9250 4400 0    50   ~ 0
+	7850 6250 8350 6250
+Text Notes 8950 4550 0    50   ~ 0
 Output of 0.4-2V with a 100 Ohms Resistor\n\n
 Text GLabel 2400 1300 2    50   Input ~ 0
 ADC_A1
@@ -518,7 +507,7 @@ F 3 "" H 9300 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U5
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U5
 U 1 1 5F8AB18D
 P 9900 2150
 F 0 "U5" V 10350 2250 50  0000 L CNN
@@ -563,10 +552,10 @@ F 3 "" H 6500 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U4
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U3
 U 1 1 5F8AB175
 P 7100 2150
-F 0 "U4" V 7550 2250 50  0000 L CNN
+F 0 "U3" V 7550 2250 50  0000 L CNN
 F 1 "Adafruit_MAX31856" V 6550 1800 50  0000 L CNN
 F 2 "Test Bench PCB Breakout:Adafruit_MAX31856" H 7100 2150 50  0001 C CNN
 F 3 "" H 7100 2150 50  0001 C CNN
@@ -608,10 +597,10 @@ F 3 "" H 7900 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U3
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U4
 U 1 1 5F8A86F2
 P 8500 2150
-F 0 "U3" V 8950 2250 50  0000 L CNN
+F 0 "U4" V 8950 2250 50  0000 L CNN
 F 1 "Adafruit_MAX31856" V 7950 1800 50  0000 L CNN
 F 2 "Test Bench PCB Breakout:Adafruit_MAX31856" H 8500 2150 50  0001 C CNN
 F 3 "" H 8500 2150 50  0001 C CNN
@@ -653,7 +642,7 @@ F 3 "" H 5100 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U2
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U2
 U 1 1 5F8A1A33
 P 5700 2150
 F 0 "U2" V 6150 2250 50  0000 L CNN
@@ -680,7 +669,7 @@ Pressure Sensors Circuits
 Text Notes 3650 4000 0    79   ~ 16
 Load Cell Amplification Section\n
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MicroSD_Breakout U8
+L Test_Stand_Symbol_Library:Adafruit_MicroSD_Breakout U8
 U 1 1 5F8F764B
 P 5100 6900
 F 0 "U8" V 5715 6867 50  0000 C CNN
@@ -741,7 +730,7 @@ NoConn ~ 5400 6550
 NoConn ~ 5400 7250
 Wire Notes Line
 	3550 5850 6950 5850
-Text Notes 3600 6150 0    79   ~ 16
+Text Notes 3650 6150 0    79   ~ 16
 MicroSD Card Module\n\n
 Text Notes 600  4000 0    79   ~ 16
 Microcontroller\n
@@ -749,87 +738,100 @@ NoConn ~ 2500 5900
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 5F9D2875
-P 10850 5200
-F 0 "J5" H 10800 5300 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 10950 4950 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10850 5200 50  0001 C CNN
-F 3 "~" H 10850 5200 50  0001 C CNN
-	1    10850 5200
+P 10750 5450
+F 0 "J5" H 10700 5550 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 10850 5200 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10750 5450 50  0001 C CNN
+F 3 "~" H 10750 5450 50  0001 C CNN
+	1    10750 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5F9D3525
-P 10450 5200
-F 0 "#PWR02" H 10450 4950 50  0001 C CNN
-F 1 "GND" H 10455 5027 50  0000 C CNN
-F 2 "" H 10450 5200 50  0001 C CNN
-F 3 "" H 10450 5200 50  0001 C CNN
-	1    10450 5200
+P 10350 5450
+F 0 "#PWR02" H 10350 5200 50  0001 C CNN
+F 1 "GND" H 10355 5277 50  0000 C CNN
+F 2 "" H 10350 5450 50  0001 C CNN
+F 3 "" H 10350 5450 50  0001 C CNN
+	1    10350 5450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10650 5200 10450 5200
+	10550 5450 10350 5450
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F9D963B
-P 10150 5300
-F 0 "#FLG0101" H 10150 5375 50  0001 C CNN
-F 1 "PWR_FLAG" H 10150 5473 50  0000 C CNN
-F 2 "" H 10150 5300 50  0001 C CNN
-F 3 "~" H 10150 5300 50  0001 C CNN
-	1    10150 5300
+P 10050 5550
+F 0 "#FLG0101" H 10050 5625 50  0001 C CNN
+F 1 "PWR_FLAG" H 10050 5723 50  0000 C CNN
+F 2 "" H 10050 5550 50  0001 C CNN
+F 3 "~" H 10050 5550 50  0001 C CNN
+	1    10050 5550
 	-1   0    0    1   
 $EndComp
-Text Notes 11200 5700 2    50   ~ 0
+Text Notes 11100 5950 2    50   ~ 0
 12V from power supply or batteries\n\n
 Wire Wire Line
-	10150 5300 10500 5300
+	10050 5550 10400 5550
 $Comp
 L power:+12V #PWR?
 U 1 1 5FB4126D
-P 10500 5300
-F 0 "#PWR?" H 10500 5150 50  0001 C CNN
-F 1 "+12V" H 10515 5473 50  0000 C CNN
-F 2 "" H 10500 5300 50  0001 C CNN
-F 3 "" H 10500 5300 50  0001 C CNN
-	1    10500 5300
+P 10400 5550
+F 0 "#PWR?" H 10400 5400 50  0001 C CNN
+F 1 "+12V" H 10415 5723 50  0000 C CNN
+F 2 "" H 10400 5550 50  0001 C CNN
+F 3 "" H 10400 5550 50  0001 C CNN
+	1    10400 5550
 	-1   0    0    1   
 $EndComp
-Connection ~ 10500 5300
+Connection ~ 10400 5550
 Wire Wire Line
-	10500 5300 10650 5300
+	10400 5550 10550 5550
 $Comp
 L power:+12V #PWR?
 U 1 1 5FB42063
-P 8650 6100
-F 0 "#PWR?" H 8650 5950 50  0001 C CNN
-F 1 "+12V" H 8665 6273 50  0000 C CNN
-F 2 "" H 8650 6100 50  0001 C CNN
-F 3 "" H 8650 6100 50  0001 C CNN
-	1    8650 6100
+P 8350 6250
+F 0 "#PWR?" H 8350 6100 50  0001 C CNN
+F 1 "+12V" H 8365 6423 50  0000 C CNN
+F 2 "" H 8350 6250 50  0001 C CNN
+F 3 "" H 8350 6250 50  0001 C CNN
+	1    8350 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5FB428B7
-P 8650 5350
-F 0 "#PWR?" H 8650 5200 50  0001 C CNN
-F 1 "+12V" H 8665 5523 50  0000 C CNN
-F 2 "" H 8650 5350 50  0001 C CNN
-F 3 "" H 8650 5350 50  0001 C CNN
-	1    8650 5350
+P 8350 5500
+F 0 "#PWR?" H 8350 5350 50  0001 C CNN
+F 1 "+12V" H 8365 5673 50  0000 C CNN
+F 2 "" H 8350 5500 50  0001 C CNN
+F 3 "" H 8350 5500 50  0001 C CNN
+	1    8350 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5FB42C6F
-P 8650 4600
-F 0 "#PWR?" H 8650 4450 50  0001 C CNN
-F 1 "+12V" H 8665 4773 50  0000 C CNN
-F 2 "" H 8650 4600 50  0001 C CNN
-F 3 "" H 8650 4600 50  0001 C CNN
-	1    8650 4600
+P 8350 4750
+F 0 "#PWR?" H 8350 4600 50  0001 C CNN
+F 1 "+12V" H 8365 4923 50  0000 C CNN
+F 2 "" H 8350 4750 50  0001 C CNN
+F 3 "" H 8350 4750 50  0001 C CNN
+	1    8350 4750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6970 6540 6970 6840
+$Comp
+L Test_Stand_Symbol_Library:AdafruitHuzzah32Breakout U1
+U 1 1 5F7A20EC
+P 2050 5200
+F 0 "U1" H 2050 5565 50  0000 C CNN
+F 1 "AdafruitHuzzah32Breakout" H 2050 5474 50  0000 C CNN
+F 2 "Test Bench PCB Breakout:Adafruit_Huzzah32" H 1850 5300 50  0001 C CNN
+F 3 "" H 1850 5300 50  0001 C CNN
+	1    2050 5200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
