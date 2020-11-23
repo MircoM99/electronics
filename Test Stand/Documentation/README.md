@@ -1,4 +1,8 @@
 # Documentation links
+
+Qui sono disponibili i link alla documentazione più rilevante riguardo i componenti e i sensori selezionati.  
+Nella cartella `\Datasheet PDF` sono presenti i principali datasheet in formato PDF.
+
 ## Adafruit HUZZAH32
 - [Adafruit Shop](https://www.adafruit.com/product/3405)
 - [Adafruit Overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather)
