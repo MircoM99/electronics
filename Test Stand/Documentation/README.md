@@ -1,4 +1,4 @@
-# Datasheet links
+# Documentation links
 ## Adafruit HUZZAH32
 - [Adafruit Shop](https://www.adafruit.com/product/3405)
 - [Adafruit Overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather)
