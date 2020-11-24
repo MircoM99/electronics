@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_ADS1115 ADC1
+L Test_Stand_Symbol_Library:Adafruit_ADS1115 ADC1
 U 1 1 5F89A5C4
 P 2400 1350
 F 0 "ADC1" H 1700 1800 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 2400 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_ADS1015 ADC2
+L Test_Stand_Symbol_Library:Adafruit_ADS1015 ADC2
 U 1 1 5F89AD1E
 P 2400 2750
 F 0 "ADC2" H 1700 3200 50  0000 L CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3400 2400 3400
 $Comp
-L Breakout_Test_Bench_Library:INA_122P U7
+L Test_Stand_Symbol_Library:INA_122P U7
 U 1 1 5F8AD66F
 P 5250 4850
 F 0 "U7" H 5250 4950 50  0000 C CNN
@@ -507,7 +507,7 @@ F 3 "" H 9300 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U5
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U5
 U 1 1 5F8AB18D
 P 9900 2150
 F 0 "U5" V 10350 2250 50  0000 L CNN
@@ -552,7 +552,7 @@ F 3 "" H 6500 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U3
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U3
 U 1 1 5F8AB175
 P 7100 2150
 F 0 "U3" V 7550 2250 50  0000 L CNN
@@ -597,7 +597,7 @@ F 3 "" H 7900 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U4
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U4
 U 1 1 5F8A86F2
 P 8500 2150
 F 0 "U4" V 8950 2250 50  0000 L CNN
@@ -642,7 +642,7 @@ F 3 "" H 5100 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MAX31856 U2
+L Test_Stand_Symbol_Library:Adafruit_MAX31856 U2
 U 1 1 5F8A1A33
 P 5700 2150
 F 0 "U2" V 6150 2250 50  0000 L CNN
@@ -669,7 +669,7 @@ Pressure Sensors Circuits
 Text Notes 3650 4000 0    79   ~ 16
 Load Cell Amplification Section\n
 $Comp
-L Breakout_Test_Bench_Library:Adafruit_MicroSD_Breakout U8
+L Test_Stand_Symbol_Library:Adafruit_MicroSD_Breakout U8
 U 1 1 5F8F764B
 P 5100 6900
 F 0 "U8" V 5715 6867 50  0000 C CNN
@@ -824,7 +824,7 @@ $EndComp
 Wire Notes Line
 	6970 6540 6970 6840
 $Comp
-L Breakout_Test_Bench_Library:AdafruitHuzzah32Breakout U1
+L Test_Stand_Symbol_Library:AdafruitHuzzah32Breakout U1
 U 1 1 5F7A20EC
 P 2050 5200
 F 0 "U1" H 2050 5565 50  0000 C CNN
