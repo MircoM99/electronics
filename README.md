@@ -9,12 +9,12 @@ La repository è composta da due cartelle principali di struttura analoga:
 - `Test Stand`
   - `\Hardware`
   - `\Software`
-  - `\Documentation`
+  - `\Documents`
   
 - `Avionic` 
   - `\Hardware`
   - `\Software`
-  - `\Documentation`
+  - `\Documents`
   
 ## Hardware
 
