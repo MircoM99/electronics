@@ -39,7 +39,7 @@ Peso: 9,07g * 2 = 18,14g
 ## Dimensionamento 
 
 Requisiti di volume =  
-Altezza Electronic Pack = 10(PCB) + 22(Battery Bank) + 10,4(12V Batteries) + 10(Assembly) = 52,4 mm 
+Altezza Electronic Pack = 10(PCB) + 22(Battery Bank) + 10,4(12V Batteries) + 10(Assembly) = 52,4 mm  
 Volume Richiesto = Altezza Electronic Pack * pi * (100mm/2)^2 = 400011 mm^3 = 400 cm^2 (Circa)
 
 Requisiti di Peso =  
