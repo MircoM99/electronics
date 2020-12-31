@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_ADS1115 ADC1
+L Test-Stand-PCB-rescue:Adafruit_ADS1115-Test_Stand_Symbol_Library ADC1
 U 1 1 5F89A5C4
 P 2400 1350
 F 0 "ADC1" H 1700 1800 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 2400 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_ADS1015 ADC2
+L Test-Stand-PCB-rescue:Adafruit_ADS1015-Test_Stand_Symbol_Library ADC2
 U 1 1 5F89AD1E
 P 2400 2750
 F 0 "ADC2" H 1700 3200 50  0000 L CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3400 2400 3400
 $Comp
-L Test_Stand_Symbol_Library:INA_122P U7
+L Test-Stand-PCB-rescue:INA_122P-Test_Stand_Symbol_Library U7
 U 1 1 5F8AD66F
 P 5250 4850
 F 0 "U7" H 5250 4950 50  0000 C CNN
@@ -504,7 +504,7 @@ F 3 "" H 6550 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_MAX31856 U5
+L Test-Stand-PCB-rescue:Adafruit_MAX31856-Test_Stand_Symbol_Library U5
 U 1 1 5F8AB18D
 P 7150 2850
 F 0 "U5" V 7600 2950 50  0000 L CNN
@@ -549,7 +549,7 @@ F 3 "" H 6550 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_MAX31856 U3
+L Test-Stand-PCB-rescue:Adafruit_MAX31856-Test_Stand_Symbol_Library U3
 U 1 1 5F8AB175
 P 7150 1550
 F 0 "U3" V 7600 1650 50  0000 L CNN
@@ -594,7 +594,7 @@ F 3 "" H 5150 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_MAX31856 U4
+L Test-Stand-PCB-rescue:Adafruit_MAX31856-Test_Stand_Symbol_Library U4
 U 1 1 5F8A86F2
 P 5750 2850
 F 0 "U4" V 6200 2950 50  0000 L CNN
@@ -639,7 +639,7 @@ F 3 "" H 5150 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_MAX31856 U2
+L Test-Stand-PCB-rescue:Adafruit_MAX31856-Test_Stand_Symbol_Library U2
 U 1 1 5F8A1A33
 P 5750 1550
 F 0 "U2" V 6200 1650 50  0000 L CNN
@@ -666,7 +666,7 @@ Pressure Sensors Circuits
 Text Notes 3650 4000 0    79   ~ 16
 Load Cell Amplification Section\n
 $Comp
-L Test_Stand_Symbol_Library:Adafruit_MicroSD_Breakout U8
+L Test-Stand-PCB-rescue:Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library U8
 U 1 1 5F8F764B
 P 5100 6900
 F 0 "U8" V 5715 6867 50  0000 C CNN
@@ -794,7 +794,7 @@ $EndComp
 Wire Notes Line
 	6970 6540 6970 6840
 $Comp
-L Test_Stand_Symbol_Library:AdafruitHuzzah32Breakout U1
+L Test-Stand-PCB-rescue:AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library U1
 U 1 1 5F7A20EC
 P 2050 5200
 F 0 "U1" H 2050 5565 50  0000 C CNN

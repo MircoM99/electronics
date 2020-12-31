@@ -122,11 +122,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_AdafruitHuzzah32Breakout
+# Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_AdafruitHuzzah32Breakout U 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_AdafruitHuzzah32Breakout" 0 350 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library" 0 350 50 H V C CNN
 F2 "" -200 100 50 H I C CNN
 F3 "" -200 100 50 H I C CNN
 DRAW
@@ -162,11 +162,11 @@ X A4 9 -450 -700 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_Adafruit_ADS1015
+# Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_Adafruit_ADS1015 ADC 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library ADC 0 40 Y Y 1 F N
 F0 "ADC" 150 450 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_Adafruit_ADS1015" -350 450 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library" -350 450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -184,11 +184,11 @@ X A2 9 150 0 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_Adafruit_ADS1115
+# Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_Adafruit_ADS1115 ADC 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library ADC 0 40 Y Y 1 F N
 F0 "ADC" 150 450 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_Adafruit_ADS1115" -350 450 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library" -350 450 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -206,11 +206,11 @@ X A2 9 150 0 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_Adafruit_MAX31856
+# Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_Adafruit_MAX31856 U 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
 F0 "U" 0 300 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_Adafruit_MAX31856" 0 150 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -227,11 +227,11 @@ X DRDY 9 400 -350 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_Adafruit_MicroSD_Breakout
+# Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_Adafruit_MicroSD_Breakout U 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
 F0 "U" 300 150 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_Adafruit_MicroSD_Breakout" 0 300 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library" 0 300 50 H V C CNN
 F2 "" -50 -600 50 H I C CNN
 F3 "" -50 -600 50 H I C CNN
 DRAW
@@ -247,11 +247,11 @@ X 5v 8 350 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Test_Stand_Symbol_Library_INA_122P
+# Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library
 #
-DEF Test_Stand_Symbol_Library_INA_122P U 0 40 Y Y 1 F N
+DEF Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "Test_Stand_Symbol_Library_INA_122P" 0 0 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
