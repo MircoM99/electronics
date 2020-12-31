@@ -1,4 +1,4 @@
-update=31/12/2020 11:50:32
+update=31/12/2020 11:55:41
 version=1
 last_client=kicad
 [general]
@@ -240,8 +240,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/jacoi/Documents/GitHub/electronics/Test Stand/Hardware/Thrust Schematic Template.kicad_wks
-PlotDirectoryName=./
+PageLayoutDescrFile=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/Thrust Schematic Template.kicad_wks
+PlotDirectoryName=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
