@@ -1,4 +1,4 @@
-update=31/12/2020 11:55:41
+update=17/02/2021 17:04:50
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/Thrust Schematic Template.kicad_wks
+PlotDirectoryName=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -31,6 +41,8 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.2
 TrackWidth3=0.3
+TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -238,13 +250,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/Thrust Schematic Template.kicad_wks
-PlotDirectoryName=C:/Users/Jacopo/Documents/GitHub/electronics/Test Stand/Hardware/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
