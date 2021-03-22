@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="167.57486mm"
+   width="170.78854mm"
    height="55.970993mm"
-   viewBox="0 0 167.57486 55.970993"
+   viewBox="0 0 170.78854 55.970993"
    version="1.1"
    id="svg1032"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="278.10099"
-     inkscape:cy="76.933704"
+     inkscape:cx="307.95734"
+     inkscape:cy="114.72544"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,9 +63,9 @@
        id="text875"
        y="123.52324"
        x="42.069439"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
          y="123.52324"
          x="42.069439"
          id="tspan873"
@@ -79,7 +79,7 @@
        y="118.81835" />
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        x="103.58919"
        y="123.52324"
        id="text882"><tspan
@@ -87,7 +87,7 @@
          id="tspan880"
          x="103.58919"
          y="123.52324"
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Microcontroller</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Microcontroller</tspan></text>
     <rect
        y="97.543678"
        x="41.60252"
@@ -97,7 +97,7 @@
        style="fill:#ffdf7e;stroke:#000000;stroke-width:0.298167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        x="56.185284"
        y="102.24857"
        id="text888"><tspan
@@ -105,7 +105,7 @@
          id="tspan886"
          x="56.185284"
          y="102.24857"
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Temp. Acquis. Int</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Temp. Acquis. Int</tspan></text>
     <rect
        style="fill:#ffdf7e;stroke:#000000;stroke-width:0.298167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect890"
@@ -117,9 +117,9 @@
        id="text894"
        y="102.24857"
        x="89.593971"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
          y="102.24857"
          x="89.593971"
          id="tspan892"
@@ -135,9 +135,9 @@
        id="text887-7"
        y="112.86797"
        x="146.23064"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
          y="112.86797"
          x="146.23064"
          id="tspan885-9"
@@ -148,18 +148,18 @@
        width="29.126413"
        height="7.4052644"
        x="165.63693"
-       y="108.04604" />
+       y="108.14054" />
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        x="180.21973"
-       y="112.75092"
+       y="112.84542"
        id="text921"><tspan
          sodipodi:role="line"
          id="tspan919"
          x="180.21973"
-         y="112.75092"
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Pressure Sensor</tspan></text>
+         y="112.84542"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Pressure Sensor</tspan></text>
     <rect
        y="84.04454"
        x="41.343498"
@@ -171,9 +171,9 @@
        id="text938"
        y="88.749435"
        x="55.926292"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.620219;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.620219;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
          y="88.749435"
          x="55.926292"
          id="tspan936"
@@ -187,7 +187,7 @@
        y="84.04454" />
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.620219;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.620219;stroke-width:0.264583"
        x="89.56617"
        y="88.749435"
        id="text944"><tspan
@@ -195,7 +195,7 @@
          id="tspan942"
          x="89.56617"
          y="88.749435"
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Temperature Sensor</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Temperature Sensor</tspan></text>
     <path
        id="path946"
        d="M 56.472251,122.54546 H 88.9455"
@@ -238,18 +238,18 @@
        width="29.126413"
        height="7.4052644"
        x="165.33459"
-       y="96.215378" />
+       y="119.49871" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        x="179.91737"
-       y="100.92027"
+       y="124.20362"
        id="text968"><tspan
          sodipodi:role="line"
          id="tspan966"
          x="179.91737"
-         y="100.92027"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Sensor Power 24V</tspan></text>
+         y="124.20362"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583">Power 24V</tspan></text>
     <rect
        y="132.3121"
        x="89.172394"
@@ -261,9 +261,9 @@
        id="text974"
        y="137.017"
        x="103.75517"
-       style="font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:2.82223px;stroke-width:0.264583;-inkscape-font-specification:Helvetica;font-family:Helvetica;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
          y="137.017"
          x="103.75517"
          id="tspan972"
@@ -274,7 +274,46 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.23427px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 180.46323,103.67566 1e-5,4.23846"
+       d="m 180.46323,115.41183 1e-5,4.23846"
        id="path870" />
+    <rect
+       y="92.288101"
+       x="131.53439"
+       height="7.4052644"
+       width="29.126413"
+       id="rect48"
+       style="fill:#ffdf7e;stroke:#000000;stroke-width:0.298167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text52"
+       y="96.992989"
+       x="146.11722"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
+         y="96.992989"
+         x="146.11722"
+         id="tspan50"
+         sodipodi:role="line">Elec. Act. Valve</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 118.0991,120.70089 h 4.48847 V 95.707213 h 9.02131"
+       id="path54"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 194.49754,123.11049 h 3.49628 V 95.801707 h -37.28734"
+       id="path86"
+       sodipodi:nodetypes="cccc" />
+    <text
+       id="text90"
+       y="94.87632"
+       x="126.67036"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:Helvetica;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82223px;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583"
+         y="94.87632"
+         x="126.67036"
+         id="tspan88"
+         sodipodi:role="line">x3</tspan></text>
   </g>
 </svg>
