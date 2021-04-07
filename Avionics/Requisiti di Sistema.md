@@ -1,6 +1,8 @@
-# Requisiti di Sitema Preliminari
+# ARYA
 
-## Main Board
+## Requisiti di Sitema Preliminari
+
+### Main Board
 La Main Board sarà basata sull'esperienza acquisita dal lavoro sull'elettronica della Test Stand.  
 Le funzioni che dovranno essere ereditate saranno:
 * Misura di pressione (3 Canali)
@@ -15,7 +17,7 @@ In aggiunta, da sviluppare ex novo:
 * Integrazione di un altimetro
 * Aggiunta di un canale per controllare il sistema di recupero
 
-## BMS (Battery Management System)
+### BMS (Battery Management System)
 Il BMS deve essere in grado di proteggere le batterie (18650 Li ion) e fornire i voltaggi richiesti dalla main board (3,3V-5V e 24V).
 Il circuito quindi consisterà di due parti: 
 
