@@ -3,7 +3,7 @@
 * Main Board
   * MCU: Esp32
   * IMU: ICM42688P
-  * GPS:
+  * GPS: [MTK3339](https://www.adafruit.com/product/746)
   * TEMP: 
   * PRS: 
   * SD: 
