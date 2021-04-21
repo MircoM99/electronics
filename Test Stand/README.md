@@ -56,6 +56,9 @@ The electrovalves actuation circuit is based around a standard [N channel logic 
 ## Power
 Power in the board is supplied by the USB port on the [ESP32](https://www.adafruit.com/product/3405). This particular board has a pin labelled USB that is directly connected to the USB 5V pins. All the other 5V components are powered from this pin. The 24V required for the Mosfet circuit and the 4-20mA sensor channels is supplied by a standard screw connector.
 
+<p align="center">
+<img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/TSPCB_Front_Power.png" width="600">
+</p>
 
 
 ## Contribution
