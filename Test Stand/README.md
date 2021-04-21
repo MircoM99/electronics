@@ -2,10 +2,10 @@
 > Electronic Board for Test Stand Development of the THRUST Student Project.
 
 ARCHIE is a ESP32 based data logging and actuation capable system that is able to record and control:
-* 4 Thermocouples channels, 
-* 3 Pressure Sensors channels, 
-* 3 Mosfet Actuated Electrovalve channels 
-* 1 Load Cell channel. 
+* 4 Thermocouples,
+* 3 Pressure Sensors (4-20mA sensors), 
+* 3 Mosfet Actuated Electrovalve, 
+* 1 Load Cell
 
 
 
@@ -30,7 +30,7 @@ Temperature information are supplied by the four indipendent thermocouples chann
 
 
 ## Pressure
-Pressure datas are supplied by 4-20mA Pressure transducer. This type of sensor can be easily read by the [Adafruit ADS1115](https://www.adafruit.com/product/1085) ADC thanks to a simple 200 Ohms resistor that provides a range of voltages from 0.8V (4mA) to 4V (20mA) to the ADC. Any 4-20mA sensor can actually be connected to these channels. 
+Pressure datas are supplied by 4-20mA Pressure transducers. This type of sensors can be easily read by the [Adafruit ADS1115](https://www.adafruit.com/product/1085) ADC thanks to a simple 200 Ohms resistor that provides a range of voltages from 0.8V (4mA) to 4V (20mA) to the ADC. Any 4-20mA sensor can actually be connected to these channels. 
 
 <p align="center">
 <img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/TSPCB_Front_Pressure.png" width="600">
@@ -46,7 +46,7 @@ Thrust Measurement are maybe one of the most important datas that one can gather
 
 
 ## Electrovalves
-The electrovalves actuation circuit is based around a standard [N channel logic level Mosfet](https://www.infineon.com/dgdl/irlr8743pbf.pdf?fileId=5546d462533600a4015356719c7e26ff) that is responsible for connecting the valves to the power upon a signal from the Microcontroller. The circuit has also two resistor, the first one of about 100 Ohms is used to limit the amount of current that is drawn from the microcrontroller. The second one is a 10k Ohms pull down resistor to avoid an unwanted actuation of the valves. The circuit is completed by a Diode that is used to eliminate problems related to flyback. 
+The electrovalves actuation circuit is based around a standard [N channel logic level Mosfet](https://www.infineon.com/dgdl/irlr8743pbf.pdf?fileId=5546d462533600a4015356719c7e26ff) that is responsible for connecting the valves to the power upon a signal from the microcontroller. The circuit consist also of two resistor, the first one of about 100 Ohms is used to limit the amount of current that is drawn from the microcrontroller. The second one is a 10k Ohms pull down resistor to avoid an unwanted actuation of the valves. The circuit is completed by a diode that is used to eliminate problems related to flyback current. 
 
 <p align="center">
 <img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/TSPCB_Front_Valves.png" width="600">
@@ -54,4 +54,13 @@ The electrovalves actuation circuit is based around a standard [N channel logic 
 
 
 ## Power
-Power in the board is supplied by the USB port on the [ESP32](https://www.adafruit.com/product/3405). This particular board has a pin labelled USB that is directly connected to the USB 5V pins. All the other 5V components are powered from this pin. The 24V required for the Mosfet circuit and the 4-20mA sensor channels is supplied by a screw connector. 
+Power in the board is supplied by the USB port on the [ESP32](https://www.adafruit.com/product/3405). This particular board has a pin labelled USB that is directly connected to the USB 5V pins. All the other 5V components are powered from this pin. The 24V required for the Mosfet circuit and the 4-20mA sensor channels is supplied by a standard screw connector.
+
+
+
+## Contribution
+ARCHIE gerber files are available in the [hardware directrory](https://github.com/thrust-team/electronics/tree/main/Test%20Stand/Hardware/Test%20Stand%20PCB) of this repository along side the footprint and schematic symbols used. All the development has been made using the open source software [Kicad](https://kicad.org/)
+
+Jacopo Irone  
+THRUST Team  
+University of Padua  
