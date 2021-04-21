@@ -67,3 +67,8 @@ ARCHIE gerber files are available in the [hardware directrory](https://github.co
 Jacopo Irone  
 THRUST Team  
 University of Padua  
+
+<p align="center">
+<img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/logo_thrust.png" width="600">
+</p>
+
