@@ -61,7 +61,7 @@ Power in the board is supplied by the USB port on the [ESP32](https://www.adafru
 </p>
 
 
-## Contribution
+## Contributions
 ARCHIE gerber files are available in the [hardware directrory](https://github.com/thrust-team/electronics/tree/main/Test%20Stand/Hardware/Test%20Stand%20PCB) of this repository along side the footprints and schematic symbols used. All the development has been made using the open source software [Kicad](https://kicad.org/)
 
 Jacopo Irone  
@@ -69,6 +69,6 @@ THRUST Team
 University of Padua  
 
 <p align="center">
-<img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/logo_thrust.png" width="600">
+<img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/logo_thrust.png" width="400">
 </p>
 
