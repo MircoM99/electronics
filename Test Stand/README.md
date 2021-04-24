@@ -15,7 +15,7 @@ ARCHIE is a ESP32 based data logging and actuation capable system that is able t
 </p>
 
 ## MCU
-The choice for the MCU of this project has fallen upon the [Adafruit HUZZAH32](https://www.adafruit.com/product/3405), an ESP 32 based board by Adafruit. The ESP32 is a great MCU beign powerful, efficient and cheap. His Dual-core 250Mhz processor is powerful enough for the data logging task that we need, while the bluetooth and Wifi functionalities can come in handy if we need to trasmit data wirelessly. The ESP32 is also widely available and supported all over the world. 
+The choice for the MCU of this project has fallen upon the [Adafruit HUZZAH32](https://www.adafruit.com/product/3405), an ESP 32 based board by Adafruit. The ESP32 is a great MCU being powerful, efficient and cheap. Its Dual-core 250Mhz processor is powerful enough for the data logging task that we need, while the bluetooth and Wifi functionalities can come in handy if we need to trasmit data wirelessly. The ESP32 is also widely available and supported all over the world. 
 
 <p align="center">
 <img src="https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/TSPCB_Front_MCU.png" width="600">
