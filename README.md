@@ -1,10 +1,10 @@
 # Electronics
 
-Questa repository contiene i file per la realizzazione dell'elettronica per quanto riguarda tutti gli aspetti del progetto.
+This repository contains all the files for the design of the electronics subsystems of the project.
 
 # Struttura della repository
 
-La repository è composta da due cartelle principali di struttura analoga:
+The repository is structured in two main folders of similar arrangement:
 
 - `Test Stand`
   - `\Hardware`
@@ -18,18 +18,22 @@ La repository è composta da due cartelle principali di struttura analoga:
   
 ## Hardware
 
-La cartella Hardware contiene tutti i file di progetto dedicati alla realizzazione del PCB corrispondente. I file di progetto sono realizzati attraverso l'uso del software open source [kicad](https://kicad.org/). Dopo aver installato il software, aprire il file di progetto con estensione `.pro` che si trova nelle directory
+The Hardware folder contains all the project files dedicated to the design of the corrisponding PCB. The Project files are build using the open source software [kicad](https://kicad.org/). After installing the software, open the project file with the `.pro` extension that can be found in the directory path:
 
 - `Test Stand\Hardware\Test Stand PCB\Test Stand PCB.pro`
 - `Avionic\Hardware\Avionic PCB\Avionic PCB.pro`
 
-Nella directory di progetto sono contenute le librerie Symbols (`Breakout_Test_Stand_PCB.lib`) e Footprint(`Test Stand PCB Breakout.pretty`) utilizzate. 
+The project directory also contains all the Symbols and Footprint libraries used. 
+
+- `Breakout_Test_Stand_PCB.lib`
+- `Test Stand PCB Breakout.pretty`
 
 ## Software
 
-La cartella Software contiene i file di progetto dedicati alla realizzazione del software che girerà sul sistema corrispondente. I file di progetto sono realizzati attraverso l'uso del software [Microsoft Visual Studio Code](https://code.visualstudio.com/) e l'estensione [PlatformIO](https://platformio.org/).
+The software folders contains all the files used to develop the corrisponing subsystem's software.
+The files are built using the software [Microsoft Visual Studio Code](https://code.visualstudio.com/) and the extension [PlatformIO](https://platformio.org/).
 
-Il framework principale utilizzato rimane comunque Arduino. 
+The main framework used remain the Arduino Framework
 
 ![Thrust Logo](https://github.com/thrust-team/electronics/blob/main/Test%20Stand/Figures/logo_thrust.png)
 
