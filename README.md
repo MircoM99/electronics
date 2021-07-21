@@ -1,6 +1,6 @@
 # Electronics
 
-This repository contains all the files for the design of the electronics subsystems of the project.
+This repository contains all the files for the design of all the electronics subsystems of the project.
 
 # Struttura della repository
 
@@ -23,15 +23,15 @@ The Hardware folder contains all the project files dedicated to the design of th
 - `Test Stand\Hardware\Test Stand PCB\Test Stand PCB.pro`
 - `Avionic\Hardware\Avionic PCB\Avionic PCB.pro`
 
-The project directory also contains all the Symbols and Footprint libraries used. 
+This folder also contains all the Symbols and Footprint libraries used. 
 
 - `Breakout_Test_Stand_PCB.lib`
 - `Test Stand PCB Breakout.pretty`
 
 ## Software
 
-The software folders contains all the files used to develop the corrisponing subsystem's software.
-The files are built using the software [Microsoft Visual Studio Code](https://code.visualstudio.com/) and the extension [PlatformIO](https://platformio.org/).
+The software folder contains all the files used to develop the corrisponing subsystem's software.
+The files are built using [Microsoft Visual Studio Code](https://code.visualstudio.com/) and the extension [PlatformIO](https://platformio.org/).
 
 The main framework used remain the Arduino Framework
 
