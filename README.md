@@ -18,7 +18,7 @@ The repository is structured in two main folders of similar arrangement:
   
 ## Hardware
 
-The Hardware folder contains all the project files dedicated to the design of the corrisponding PCB. The Project files are build using the open source software [kicad](https://kicad.org/). After installing the software, open the project file with the `.pro` extension that can be found in the directory path:
+The Hardware folder contains all the project files dedicated to the design of the corrisponding PCB. The Project files are build using the open source software [Kicad](https://kicad.org/). After installing the software, open the project file with the `.pro` extension that can be found in the directory path:
 
 - `Test Stand\Hardware\Test Stand PCB\Test Stand PCB.pro`
 - `Avionic\Hardware\Avionic PCB\Avionic PCB.pro`
