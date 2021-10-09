@@ -2,7 +2,7 @@
 
 This repository contains all the files for the design of all the electronics subsystems of the project.
 
-# Struttura della repository
+# Repository's Structure
 
 The repository is structured in two main folders of similar arrangement:
 
