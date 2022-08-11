@@ -1,11 +1,13 @@
 ## Components
 
 * Main Board
-  * MCU: Esp32
+  * MCU: STM32F411
   * IMU: ICM42688P
   * GPS: [MTK3339](https://www.adafruit.com/product/746)
-  * TEMP: 
-  * PRS: 
+  * TEMP: TM4411, per serbatoio, NBPTCO-176 per altre misurazioni
+  * PRS: PT5402 e PT5423
+  * SPINTA: FC2311-0000-2000-L
+  * PESO SERBATORIO: Cella di carico
   * SD: 
   
 * BMS
