@@ -5,20 +5,18 @@
 ### Main Board
 La Main Board sarà basata sull'esperienza acquisita dal lavoro sull'elettronica della Test Stand.  
 Le funzioni che dovranno essere ereditate saranno:
-* Misura di pressione (3 Canali)
+* Misura di pressione (6 Canali)
 * Misura di temperatura (4 Canali) 
+* Acqusizione dati IMU
+* Acquisizione dati Barometro
 * Scrittura dei dati su scheda SD
-* Controllo di elettrovalvole (Opzionale)
+* Scrittura dei dati su EEPROM
+* Controllo di elettrovalvole
+* Controllo cariche espulsione paracadute
 
-In aggiunta, da sviluppare ex novo: 
-* Utilizzo di componenti SMD
-* Integrazione di IMU
-* Integrazione di GPS
-* Integrazione di un altimetro
-* Aggiunta di un canale per controllare il sistema di recupero
 
 ### BMS (Battery Management System)
-Il BMS deve essere in grado di proteggere le batterie (18650 Li ion) e fornire i voltaggi richiesti dalla main board (3,3V-5V e 24V).
+Il BMS deve essere in grado di proteggere le batterie (18650 Li ion) e fornire i voltaggi richiesti dalla main board (3,3V-5V, 12V e 24V).
 Il circuito quindi consisterà di due parti: 
 
 * Protezione della batteria
@@ -28,8 +26,9 @@ Il circuito quindi consisterà di due parti:
   * Polarity inversion
   
 * Conversione del voltaggio
-  * 24V boost voltage converter
-  * 5V boost converter or 3.3V [LDO](https://datasheet.lcsc.com/szlcsc/1811201117_Advanced-Monolithic-Systems-AMS-AMS1117-3-3_C6186.pdf)
+  * 24V Boost voltage converter
+  * 12V Boost voltage converter
+  * 5V e 3.3V Linear voltage regulator
 
 * Batterie 18650 Li Ion
  * Configurazione 3S o 4S

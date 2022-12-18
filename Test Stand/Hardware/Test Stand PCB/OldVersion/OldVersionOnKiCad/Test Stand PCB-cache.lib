@@ -1,0 +1,326 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Screw_Terminal_01x04
+#
+DEF Connector_Screw_Terminal_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -200 25 1 1 6 N
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+P 2 1 1 6 -21 -187 13 -220 N
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -180 20 -213 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky
+#
+DEF Device_D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Q_NMOS_GDS
+#
+DEF Device_Q_NMOS_GDS Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Device_Q_NMOS_GDS" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 -70 130 -70 130 70 30 70 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X D 2 100 200 100 D 50 50 1 1 P
+X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_AdafruitHuzzah32Breakout-Test_Stand_Symbol_Library" 0 350 50 H V C CNN
+F2 "" -200 100 50 H I C CNN
+F3 "" -200 100 50 H I C CNN
+DRAW
+S -350 200 350 -1500 0 1 0 N
+X RST 1 -450 100 100 R 50 50 1 1 I
+X A5 10 -450 -800 100 R 50 50 1 1 B
+X SCK 11 -450 -900 100 R 50 50 1 1 B
+X MOSI 12 -450 -1000 100 R 50 50 1 1 B
+X MISO 13 -450 -1100 100 R 50 50 1 1 B
+X RX 14 -450 -1200 100 R 50 50 1 1 B
+X TX 15 -450 -1300 100 R 50 50 1 1 B
+X D21 16 -450 -1400 100 R 50 50 1 1 B
+X SCA 17 450 -1400 100 L 50 50 1 1 B
+X SCL 18 450 -1300 100 L 50 50 1 1 B
+X D14 19 450 -1200 100 L 50 50 1 1 B
+X 3V 2 -450 0 100 R 50 50 1 1 w
+X D32 20 450 -1100 100 L 50 50 1 1 B
+X D15 21 450 -1000 100 L 50 50 1 1 B
+X D33 22 450 -900 100 L 50 50 1 1 B
+X D27 23 450 -800 100 L 50 50 1 1 B
+X D12 24 450 -700 100 L 50 50 1 1 B
+X D13 25 450 -600 100 L 50 50 1 1 B
+X USB 26 450 -500 100 L 50 50 1 1 w
+X EN 27 450 -400 100 L 50 50 1 1 I
+X BAT 28 450 -300 100 L 50 50 1 1 w
+X NC 3 -450 -100 100 R 50 50 1 1 N
+X GND 4 -450 -200 100 R 50 50 1 1 w
+X A0 5 -450 -300 100 R 50 50 1 1 B
+X A1 6 -450 -400 100 R 50 50 1 1 B
+X A2 7 -450 -500 100 R 50 50 1 1 B
+X A3 8 -450 -600 100 R 50 50 1 1 B
+X A4 9 -450 -700 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library ADC 0 40 Y Y 1 F N
+F0 "ADC" 150 450 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_ADS1015-Test_Stand_Symbol_Library" -350 450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -750 100 350 550 0 1 0 N
+X VDD 1 -650 0 100 U 50 50 1 1 W
+X A3 10 250 0 100 U 50 50 1 1 I
+X GND 2 -550 0 100 U 50 50 1 1 W
+X SCL 3 -450 0 100 U 50 50 1 1 I
+X SDA 4 -350 0 100 U 50 50 1 1 I
+X ADDR 5 -250 0 100 U 50 50 1 1 I
+X ALRT 6 -150 0 100 U 50 50 1 1 I
+X A0 7 -50 0 100 U 50 50 1 1 I
+X A1 8 50 0 100 U 50 50 1 1 I
+X A2 9 150 0 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library ADC 0 40 Y Y 1 F N
+F0 "ADC" 150 450 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_ADS1115-Test_Stand_Symbol_Library" -350 450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -750 100 350 550 0 1 0 N
+X VDD 1 -650 0 100 U 50 50 1 1 W
+X A3 10 250 0 100 U 50 50 1 1 I
+X GND 2 -550 0 100 U 50 50 1 1 W
+X SCL 3 -450 0 100 U 50 50 1 1 I
+X SDA 4 -350 0 100 U 50 50 1 1 I
+X ADDR 5 -250 0 100 U 50 50 1 1 I
+X ALRT 6 -150 0 100 U 50 50 1 1 I
+X A0 7 -50 0 100 U 50 50 1 1 I
+X A1 8 50 0 100 U 50 50 1 1 I
+X A2 9 150 0 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_MAX31856-Test_Stand_Symbol_Library" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -500 250 500 -250 0 1 0 N
+X VIN 1 -400 -350 100 U 50 50 1 1 W
+X 3VO 2 -300 -350 100 U 50 50 1 1 w
+X GND 3 -200 -350 100 U 50 50 1 1 W
+X SCK 4 -100 -350 100 U 50 50 1 1 I
+X SDO 5 0 -350 100 U 50 50 1 1 I
+X SDI 6 100 -350 100 U 50 50 1 1 I
+X CS 7 200 -350 100 U 50 50 1 1 I
+X FLT 8 300 -350 100 U 50 50 1 1 I
+X DRDY 9 400 -350 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
+F0 "U" 300 150 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_Adafruit_MicroSD_Breakout-Test_Stand_Symbol_Library" 0 300 50 H V C CNN
+F2 "" -50 -600 50 H I C CNN
+F3 "" -50 -600 50 H I C CNN
+DRAW
+S -450 250 450 -200 0 1 0 N
+X CD 1 -350 -300 100 U 50 50 1 1 O
+X CS 2 -250 -300 100 U 50 50 1 1 I
+X DI 3 -150 -300 100 U 50 50 1 1 I
+X DO 4 -50 -300 100 U 50 50 1 1 I
+X CLK 5 50 -300 100 U 50 50 1 1 I
+X GND 6 150 -300 100 U 50 50 1 1 W
+X 3v 7 250 -300 100 U 50 50 1 1 W
+X 5v 8 350 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library
+#
+DEF Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "Test-Stand-PCB-rescue_INA_122P-Test_Stand_Symbol_Library" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -50 200 -450 0 1 0 N
+X RG 1 -300 -100 100 R 50 50 1 1 I
+X VIN- 2 -300 -200 100 R 50 50 1 1 I
+X VIN+ 3 -300 -300 100 R 50 50 1 1 I
+X V- 4 -300 -400 100 R 50 50 1 1 W
+X Ref 5 300 -400 100 L 50 50 1 1 I
+X VO 6 300 -300 100 L 50 50 1 1 O
+X V+ 7 300 -200 100 L 50 50 1 1 W
+X RG 8 300 -100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+24V
+#
+DEF power_+24V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+24V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +24V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library
