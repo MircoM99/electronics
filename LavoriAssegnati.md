@@ -26,7 +26,7 @@ L'ADC legge un valore di 3182 sul canale 1 e 2185 sul canale 2, allora il dato i
 Nota: 
 1. Il tag identificativo può essere un numero, univoco per ogni sensore, oppure una stringa, sta a voi decidere 
 la soluzione migliore.
-2. (IMPORTANTE) ***Il microcontrollore STM32 invierà tutti i dati sotto forma di stringe***
+2. (IMPORTANTE) ***Il microcontrollore STM32 invierà tutti i dati sotto forma di array di byte***
 3. I dati vengno inviati sotto forma di ***numero intero*** dovranno poi essere convertiti in un secondo momento 
 in temperatura, pressione, accelerazione ... con delle funzioni apposite costruite in un secondo momento.
 Il tag identificativo serve appunto a far capire a che sensore si riferisce il dato per poi poterlo convertire 
